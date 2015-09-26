@@ -51,7 +51,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'blogsite.urls'
+ROOT_URLCONF = 'votesite.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'blogsite.wsgi.application'
+WSGI_APPLICATION = 'votesite.wsgi.application'
 
 
 # Database
